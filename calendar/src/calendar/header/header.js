@@ -25,13 +25,18 @@ const AddButton = styled.div`
 `;
 
 export default function Header() {
-    return (
-        <Container>
-            <Title>Interview Calendar</Title>
-            <AddButton>+</AddButton>           
-        </Container>
-    );
+  let mess;
+  const handleClick = () => {
+    mess = prompt('введи текст');
+   
+  }
+  
+  return (
+    <Container>
+      <Title>Interview Calendar - {mess}</Title>
+      <AddButton onClick={handleClick}>+</AddButton>
+    </Container>
+  );
 }
 
-   
-    
+

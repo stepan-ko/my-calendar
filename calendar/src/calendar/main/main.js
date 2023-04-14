@@ -23,6 +23,7 @@ const Td = styled.td`
 
 const Time = styled.div`
   width: 60px;
+  margin-top: -10px;
   display: flex;
   flex-direction: column;
 `;
