@@ -1,0 +1,21 @@
+.test {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    border: 2px solid #c7c7c7;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #ff0000;
+    font-size: 16px;
+    border-bottom: 2px solid #EBEBEB;
+    background-color: #F6F6F6;
+    flex-direction: column;
+    border-bottom: 2px solid #ff0000;
+    border-left: 2px solid #ff0000;
+    rotate: 45;
+    border-right: 2px solid #E6E6E6 ;
+}
